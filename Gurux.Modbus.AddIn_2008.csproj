@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>9.0.30729</ProductVersion>
@@ -29,7 +29,7 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <OldToolsVersion>3.5</OldToolsVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
     <IsWebBootstrapper>true</IsWebBootstrapper>
     <PublishUrl>http://localhost/Modbus-RTU/</PublishUrl>
     <Install>true</Install>
@@ -168,9 +168,9 @@
       <Project>{C4BB249E-A56A-4675-B406-864280D77BF3}</Project>
       <Name>Gurux.Device</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\GXCom\GXMedias\Gurux.Terminal\Development\Gurux.Terminal_2010.csproj">
+    <ProjectReference Include="..\..\GXCom\GXMedias\Gurux.Terminal\Development\Gurux.Terminal_2008.csproj">
       <Project>{6210C774-782D-4292-AF4C-5998AC70BAFD}</Project>
-      <Name>Gurux.Terminal_2010</Name>
+      <Name>Gurux.Terminal_2008</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
